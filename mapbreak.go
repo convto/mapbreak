@@ -53,7 +53,7 @@ func run(pass *analysis.Pass) (interface{}, error) {
 			}
 			assignee := getObject(pass, idx.X)
 			if assignee == rangeTarget {
-				pass.Reportf(stmt.Pos(), "detected range access to map and reassigning it")
+				pass.Reportf(stmt.Pos(), "detected range access to map and reassigning")
 			}
 		}
 	})
