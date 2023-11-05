@@ -12,6 +12,8 @@ func Test(t *testing.T) {
 	patterns := []string{
 		"singlefile",
 		"nodetection",
+		"nodetection2",
+		"nodetection3",
 		"pointer",
 		"subpkg",
 	}
